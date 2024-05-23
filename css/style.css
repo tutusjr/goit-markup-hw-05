@@ -544,6 +544,7 @@ gap: 24px;
   color: #8e8f99;
   display: block;
   margin-bottom: 4px;
+  background-color: transparent;
 }
 
 .privacy-label{
@@ -563,7 +564,7 @@ gap: 24px;
   justify-content: center;
   align-items: center;
   fill: transparent;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-input{
   width: 100%;
@@ -586,7 +587,6 @@ gap: 24px;
   background-color: transparent;
   padding: 8px 16px;
   resize: none;
-  transition: ;
 }
 
 .modal-form-input:focus{
