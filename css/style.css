@@ -546,6 +546,13 @@ gap: 24px;
   margin-bottom: 4px;
 }
 
+.privacy-label{
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
 .modal-form-span{
   width: 16px;
   height: 16px;
@@ -608,7 +615,7 @@ gap: 24px;
   fill: #4D5AE5;
 }
 
-.modal-form-checked:checked .modal-form-span{
+.modal-form-checkbox:checked +.privacy-label .modal-form-span{
   background-color: #404bbf;
   border:none;
   fill:#f4f4fd;
